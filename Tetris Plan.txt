@@ -1,0 +1,45 @@
+﻿1. Setup core functionality
+	a. Simple user interface													COMPLETE
+	b. Place tiles on UI and array												COMPLETE			
+		i. Place tetris pieces in UI and array									COMPLETE
+		ii. Distinguish between set tiles and moving tiles						COMPLETE
+		iii. Check for out of index errors										COMPLETE
+	c. Remove tiles on UI and array												COMPLETE
+		i. Remove moving tetris pieces and replace them							COMPLETE
+		ii. Check for out of index errors										COMPLETE
+
+2. Setup core gameplay
+	a. Moving pieces															COMPLETE
+		i. Prevent moving outside boundaries									COMPLETE
+		ii. Prevent moving into other pieces									COMPLETE
+	b. Player can move pieces													COMPLETE
+		i. Player can quick drop pieces											COMPLETE
+		ii. Identify when a piece has dropped and a new piece should be made	COMPLETE
+	c. Creating new pieces														COMPLETE
+		i. Random colour														COMPLETE
+		ii. Random shape														COMPLETE
+	d. Switching between pieces (piece should go back to the top)				COMPLETE
+	e. Rotating pieces (rotation should always be possible)						COMPLETE
+		i. Determining where the new centre should be after rotation			COMPLETE
+		ii. Shifting pieces if needed to rotate
+	f. Destroying complete rows													COMPLETE
+		i. Buffering time when a row is destroyed								NOT NEEDED
+	g. Detecting when the game ends												COMPLETE
+
+3. Additional functionality
+	a. Score																	COMPLETE
+		i. re-calculation when rows are completed								COMPLETE
+		ii. display for score													COMPLETE
+		iii. Hiscore															COMPLETE
+	b. Levels																	COMPLETE
+		i. speed increase														COMPLETE
+		ii. point increase														COMPLETE
+	c. Design?
+		i. Additional start screen?
+		ii. Clean UI?
+		iii. Animation?
+		iv. Music?
+	d. Information
+		i. Held piece
+		ii. Next piece(s)
+		
